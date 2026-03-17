@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "brevo": {
+      "command": "node",
+      "args": [
+        "/home/user/brevo-project/brevo-mcp-proxy.mjs"
+      ],
+      "env": {
+        "BREVO_MCP_TOKEN": "${BREVO_MCP_TOKEN}"
+      }
+    }
+  }
+}
