@@ -22,7 +22,7 @@ rl.on('line', async (line) => {
       '-D', headerFile,
       '-H', 'Content-Type: application/json',
       '-H', 'Accept: application/json, text/event-stream',
-      '-H', `Authorization: Bearer ${TOKEN}`,
+      '-H', `api-key: ${TOKEN}`,
     ];
 
     if (sessionId) {
